@@ -1,32 +1,133 @@
 <!DOCTYPE html>
+
+<!-- 
+  <!DOCTYPE html>
+
+  tells browser:
+  "this file uses HTML5"
+
+  HTML5 = modern HTML
+-->
+
+
+
 <html lang="en">
+
+<!-- 
+  <html>
+  root/main element
+
+  Everything goes inside it
+
+  lang="en"
+  means page language is English
+
+  EXAMPLES:
+  en = English
+  de = German
+-->
+
+
+
 <head>
+
+<!-- 
+  <head>
+
+  contains webpage information/settings
+
+  Usually not visible on webpage
+-->
+
+
+
   <meta charset="UTF-8" />
+
+  <!-- 
+    charset="UTF-8"
+
+    supports many languages/symbols
+
+    EXAMPLES:
+    é ü 😀
+  -->
+
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- 
+    Makes website responsive
+
+    width=device-width
+    uses real device width
+
+    initial-scale=1.0
+    normal zoom level
+  -->
+
+
+
   <title>Mini Practice Project</title>
+
+  <!-- 
+    <title>
+
+    text shown in browser tab
+  -->
+
+
 
   <link rel="stylesheet" href="./styles.css" />
 
   <!-- 
+    <link>
+    connects external file
+
     rel="stylesheet"
-    connects CSS file
+    means CSS file
 
     href="./styles.css"
     looks for styles.css
     in current folder
+
+    EXAMPLE:
+    project-folder/
+    ├── index.html
+    └── styles.css
   -->
+
 </head>
+
+
 
 <body>
 
+<!-- 
+  <body>
+
+  visible webpage content
+-->
+
+
+
   <h1>My First Website</h1>
 
-  <!-- Main heading -->
+  <!-- 
+    <h1>
+    main heading/title
+  -->
+
+
 
   <p>I am learning HTML, CSS, and JavaScript.</p>
 
-  <!-- Paragraph element -->
+  <!-- 
+    <p>
+    paragraph text
+  -->
+
+
 
   <img
     src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
@@ -34,46 +135,89 @@
   />
 
   <!-- 
-    src = image location
+    src
+    image location
 
-    alt = alternative text
+    alt
+    alternative text
+
+    shown if image breaks
   -->
 
+
+
   <br><br>
+
+  <!-- 
+    <br>
+    line break/new line
+  -->
+
+
 
   <a href="https://www.freecodecamp.org" target="_blank">
     Visit freeCodeCamp
   </a>
 
   <!-- 
-    href = destination URL
+    <a>
+    hyperlink
+
+    href
+    destination URL
 
     target="_blank"
-    opens link in new tab
+    opens in new tab
   -->
 
+
+
   <br><br>
+
+
 
   <input type="checkbox" checked />
 
   <!-- 
+    <input>
+    user input element
+
+    type="checkbox"
+    creates checkbox
+
     checked
-    means checked by default
+    checked by default
   -->
 
+
+
   <br><br>
+
+
 
   <button id="changeTextButton">
     Click Me
   </button>
 
-  <!-- Button element -->
+  <!-- 
+    <button>
+    clickable button
+
+    id="changeTextButton"
+    unique button name
+  -->
+
+
 
   <script src="./script.js"></script>
 
   <!-- 
-    src="./script.js"
+    <script>
     connects JavaScript file
+
+    src="./script.js"
+    looks for script.js
+    in current folder
   -->
 
 </body>

@@ -3,10 +3,32 @@ body {
   text-align: center;
 }
 
+/* 
+  font-family
+  changes text font
+
+  text-align: center
+  centers content
+*/
+
+
+
 img {
   width: 300px;
 }
 
+/* 
+  width: 300px
+  image width
+*/
+
+
+
 h1 {
   color: blue;
 }
+
+/* 
+  color: blue
+  heading text color
+*/
