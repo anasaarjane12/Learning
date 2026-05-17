@@ -1,44 +1,286 @@
-<html>
-  <body>
-    <h1> CatPhotoApp</h1>
-    <h2> Cat Photos</h2>
-    <p> Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"> cutie cats </a> online!</p>
-    
-    <p> see more 
-        <a href="https://freecatphotoapp.com/"> cat photos </a> 
+<!DOCTYPE html>
+<!-- tells browser this file uses HTML5 -->
+
+<html lang="en">
+<!-- lang="en" = page language is English -->
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- supports many languages/symbols -->
+
+  <title>CatPhotoApp</title>
+  <!-- text shown in browser tab -->
+
+</head>
+
+<body>
+
+  <main>
+  <!-- main webpage content -->
+
+    <h1>CatPhotoApp</h1>
+    <!-- main heading/title -->
+
+
+
+    <section>
+    <!-- groups related content -->
+
+      <h2>Cat Photos</h2>
+
+      <p>
+        Everyone loves
+
+        <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">
+          cute cats
+        </a>
+
+        online!
+      </p>
+
+      <!-- 
+        <a> = hyperlink
+
+        href = destination URL
+      -->
+
+
+
+      <p>
+        See more
+
+        <a target="_blank" href="https://freecatphotoapp.com">
+          cat photos
+        </a>
+
         in our gallery.
-    </p>
+      </p>
 
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="image"> <!-- edit -->
-    <h2>Cat Lists</h2>
-    <h3>Things cats love:</h3>
+      <!-- 
+        target="_blank"
 
-    <ul>
-        <li> cat nip </li>
-        <li> laser pointers </li>
+        opens link in new tab
+      -->
+
+
+
+      <a href="https://freecatphotoapp.com">
+
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+
+          alt="A cute orange cat lying on its back."
+        >
+
+      </a>
+
+      <!-- 
+        src = image location
+
+        alt = alternative text
+
+        image is clickable
+        because img is inside <a>
+      -->
+
+    </section>
+
+
+
+    <section>
+
+      <h2>Cat Lists</h2>
+
+      <h3>Things cats love:</h3>
+
+      <ul>
+
+        <li>catnip</li>
+        <li>laser pointers</li>
         <li>lasagna</li>
-    </ul>
 
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="image" title="Cats love lasagna."> <!-- edit -->
-    <p style="margin-top: 0;"> 
-        Cats <em>love</em> lasagna.
-    </p>
+      </ul>
+
+      <!-- 
+        <ul> = unordered list
+
+        <li> = list item
+      -->
 
 
-    <h3>Top 3 things cats hate:</h3>
 
-    <ol>
+      <figure>
+
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+
+          alt="A slice of lasagna on a plate."
+        >
+
+        <figcaption>
+          Cats <em>love</em> lasagna.
+        </figcaption>
+
+      </figure>
+
+      <!-- 
+        <figure>
+        groups image + caption
+
+        <figcaption>
+        image description
+
+        <em>
+        italic/emphasized text
+      -->
+
+
+
+      <h3>Top 3 things cats hate:</h3>
+
+      <ol>
+
         <li>flea treatment</li>
         <li>thunder</li>
         <li>other cats</li>
-    </ol>
 
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="image" title="Cats hate other cats."> <!-- edit -->
+      </ol>
 
-    <p style="margin-top: 0;"> 
-        Cats hate other cats.
+      <!-- 
+        <ol> = ordered/numbered list
+      -->
+
+
+
+      <figure>
+
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+
+          alt="Two tabby kittens sleeping together on a couch."
+        >
+
+        <figcaption>
+          Cats <strong>hate</strong> other cats.
+        </figcaption>
+
+      </figure>
+
+      <!-- 
+        <strong>
+        bold/important text
+      -->
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <p>
+      No Copyright -
+
+      <a href="https://www.freecodecamp.org">
+        freeCodeCamp.org
+      </a>
     </p>
 
-    <p>No Copyright -  <a href="https://www.freecodecamp.org/" target="_blank"> freeCodeCamp.org</a></p>
-  </body>
+  </footer>
+
+  <!-- 
+    <footer>
+    bottom section of webpage
+  -->
+
+</body>
 </html>
+
+
+
+
+
+<!-- 
+========================================
+ELEMENTS
+========================================
+
+<html>
+main/root HTML element
+
+<head>
+webpage settings/info
+
+<body>
+visible webpage content
+
+<main>
+main content area
+
+<section>
+groups related content
+
+<h1> <h2> <h3>
+headings
+
+<p>
+paragraph text
+
+<a>
+hyperlink
+
+<img>
+image element
+
+<ul>
+unordered list
+
+<ol>
+ordered list
+
+<li>
+list item
+
+<figure>
+groups image + caption
+
+<figcaption>
+image description
+
+<em>
+italic/emphasized text
+
+<strong>
+bold/important text
+
+<footer>
+bottom webpage section
+-->
+
+
+
+<!-- 
+========================================
+ATTRIBUTES
+========================================
+
+lang=""
+page language
+
+charset=""
+character encoding
+
+href=""
+destination URL
+
+target="_blank"
+opens link in new tab
+
+src=""
+image location
+
+alt=""
+alternative image text
+-->
