@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<!-- 
+  tells browser:
+  this document uses HTML5
+-->
+
+<html lang="en">
+
+<!-- 
+  tells browser:
+  webpage language is English
+-->
+
+<head>
+
+  <!-- 
+    tells browser:
+    webpage settings start here
+  -->
+
+  <meta charset="UTF-8" />
+
+  <!-- 
+    tells browser:
+    use UTF-8 character encoding
+
+    supports:
+    ü é 😀
+  -->
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- 
+    tells browser:
+    configure viewport for responsive design
+  -->
+
+  <!-- 
+    name="viewport"
+
+    tells browser:
+    these settings apply
+    to the viewport
+  -->
+
+  <!-- 
+    width=device-width
+
+    tells browser:
+    make webpage width equal
+    to device screen width
+  -->
+
+  <!-- 
+    initial-scale=1.0
+
+    tells browser:
+    start page at normal zoom level
+  -->
+
+  <title>
+    Display Videos in an iframe
+  </title>
+
+  <!-- 
+    tells browser:
+    show this text in browser tab
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    tells browser:
+    visible webpage content starts here
+  -->
+
+  <h1>
+    iframe Video Display
+  </h1>
+
+  <!-- 
+    tells browser:
+    display main page heading
+  -->
+
+  <iframe
+
+    width="560"
+
+    height="315"
+
+    src="https://www.youtube.com/embed/I0_951_MPE0"
+
+    allow="accelerometer autoplay clipboard-write encrypted-media gyroscope web-share"
+
+    referrerpolicy="strict-origin-when-cross-origin"
+
+    allowfullscreen
+
+  >
+
+  </iframe>
+
+  <!-- 
+    <iframe>
+
+    tells browser:
+    display another webpage
+    inside current webpage
+  -->
+
+  <!-- 
+    iframe
+
+    means:
+    Inline Frame
+  -->
+
+  <!-- 
+    why use iframe?
+
+    to embed:
+    - YouTube videos
+    - Google Maps
+    - PDFs
+    - other webpages
+  -->
+
+  <!-- 
+    width="560"
+
+    tells browser:
+    iframe width is 560 pixels
+  -->
+
+  <!-- 
+    height="315"
+
+    tells browser:
+    iframe height is 315 pixels
+  -->
+
+  <!-- 
+    src="..."
+
+    tells browser:
+    which webpage to load
+    inside iframe
+  -->
+
+  <!-- 
+    this URL is YouTube's
+    video embed page
+  -->
+
+  <!-- 
+    I0_951_MPE0
+
+    is the unique
+    YouTube video ID
+  -->
+
+  <!-- 
+    allow="..."
+
+    tells browser:
+    which features
+    YouTube is allowed to use
+  -->
+
+  <!-- 
+    accelerometer
+
+    allows motion/orientation
+    information if needed
+  -->
+
+  <!-- 
+    autoplay
+
+    allows video
+    to start automatically
+  -->
+
+  <!-- 
+    clipboard-write
+
+    allows copying content
+    to clipboard
+  -->
+
+  <!-- 
+    encrypted-media
+
+    allows protected media
+    playback
+  -->
+
+  <!-- 
+    gyroscope
+
+    allows gyroscope access
+    if needed
+  -->
+
+  <!-- 
+    web-share
+
+    allows sharing features
+  -->
+
+  <!-- 
+    referrerpolicy=
+    "strict-origin-when-cross-origin"
+
+    tells browser:
+
+    send limited information
+    to external website
+    for better privacy
+  -->
+
+  <!-- 
+    allowfullscreen
+
+    tells browser:
+
+    user may expand video
+    to full-screen mode
+  -->
+
+</body>
+
+<!-- 
+  tells browser:
+  visible webpage content ends here
+-->
+
+</html>
+
+<!-- 
+  tells browser:
+  HTML document ends here
+-->
