@@ -1,0 +1,294 @@
+<!-- 
+  SCENARIO:
+
+  Create a Movie Review Page
+
+  Practice:
+  - id
+  - class
+  - multiple classes
+  - CSS selectors
+-->
+
+
+
+<!DOCTYPE html>
+
+<!-- 
+  tells browser:
+
+  this file uses HTML5
+-->
+
+
+
+<html lang="en">
+
+<!-- 
+  tells browser:
+
+  webpage language is English
+-->
+
+
+
+<head>
+
+<!-- 
+  tells browser:
+
+  webpage settings start here
+-->
+
+
+
+  <meta charset="utf-8" />
+
+  <!-- 
+    tells browser:
+
+    support many symbols/languages
+
+    EXAMPLE:
+    ü é 😀
+  -->
+
+
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- 
+    tells browser:
+
+    webpage should work properly
+    on phones/tablets
+  -->
+
+
+
+  <title>Movie Review Practice</title>
+
+  <!-- 
+    tells browser:
+
+    show this text
+    in browser tab
+  -->
+
+
+
+  <style>
+
+  /* 
+    tells browser:
+
+    CSS styles start here
+  */
+
+
+
+    #title {
+      color: red;
+      text-align: center;
+    }
+
+    /* 
+      tells browser:
+
+      find id="title"
+
+      make text red
+      and centered
+    */
+
+
+
+    #subtitle {
+      text-align: center;
+    }
+
+    /* 
+      tells browser:
+
+      center subtitle text
+    */
+
+
+
+    .movie-box {
+      width: 250px;
+      height: 120px;
+
+      margin: 20px;
+      padding: 10px;
+
+      color: white;
+
+      border-radius: 10px;
+    }
+
+    /* 
+      tells browser:
+
+      style ALL elements
+      with class="movie-box"
+    */
+
+
+
+    .action {
+      background-color: red;
+    }
+
+    /* 
+      tells browser:
+
+      action movies
+      should have red background
+    */
+
+
+
+    .comedy {
+      background-color: blue;
+    }
+
+    /* 
+      tells browser:
+
+      comedy movies
+      should have blue background
+    */
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+<!-- 
+  tells browser:
+
+  visible webpage starts here
+-->
+
+
+
+  <h1 id="title">
+    Movie Review Page
+  </h1>
+
+  <!-- 
+    tells browser:
+
+    this is main webpage title
+  -->
+
+
+
+  <h2 id="subtitle">
+    Top Movie Categories
+  </h2>
+
+  <!-- 
+    tells browser:
+
+    this is smaller subtitle
+  -->
+
+
+
+  <div class="movie-box action">
+
+    <h3>John Wick</h3>
+
+    <p>
+      Action movie with intense fights.
+    </p>
+
+  </div>
+
+  <!-- 
+    tells browser:
+
+    create action movie box
+  -->
+
+
+
+  <div class="movie-box comedy">
+
+    <h3>Mr. Bean</h3>
+
+    <p>
+      Funny comedy show.
+    </p>
+
+  </div>
+
+  <!-- 
+    tells browser:
+
+    create comedy movie box
+  -->
+
+
+
+  <div class="movie-box action">
+
+    <h3>Avengers</h3>
+
+    <p>
+      Superhero action movie.
+    </p>
+
+  </div>
+
+
+
+  <div class="movie-box comedy">
+
+    <h3>The Mask</h3>
+
+    <p>
+      Classic comedy movie.
+    </p>
+
+  </div>
+
+</body>
+
+<!-- 
+  tells browser:
+
+  visible webpage ends here
+-->
+
+
+
+</html>
+
+<!-- 
+  tells browser:
+
+  HTML document ends here
+-->
+
+
+
+<!-- 
+  MEMORY RULE:
+
+  # = id selector
+
+  . = class selector
+
+  id = unique element
+
+  class = reusable group
+-->
