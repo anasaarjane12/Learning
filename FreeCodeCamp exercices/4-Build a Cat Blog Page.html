@@ -1,1 +1,330 @@
+<!--
+Tells browser this file uses HTML5
+-->
+<!DOCTYPE html>
 
+<!--
+Root HTML element.
+
+lang="en"
+Tells browser the page language is English.
+Useful for:
+- Accessibility
+- Search engines
+- Translation tools
+-->
+<html lang="en">
+
+  <head>
+
+    <!--
+    Tells browser what title to display
+    in browser tab.
+    -->
+    <title>Mr. Whiskers' Blog</title>
+
+    <!--
+    Meta element.
+
+    charset="UTF-8"
+
+    Tells browser which character encoding
+    to use.
+
+    UTF-8 supports:
+    - English letters
+    - German letters
+    - Arabic
+    - Japanese
+    - Most world languages
+    -->
+    <meta charset="UTF-8" />
+
+  </head>
+
+  <body>
+
+    <!--
+    Header element.
+
+    Tells browser:
+    This is the introduction/top section
+    of the webpage.
+    -->
+    <header>
+
+      <!--
+      h1 = most important heading.
+
+      Tells browser:
+      This is the main title of page.
+      -->
+      <h1>Welcome to Mr. Whiskers' Blog Page!</h1>
+
+      <!--
+      Figure element.
+
+      Tells browser:
+      The image and caption belong together.
+      -->
+      <figure>
+
+        <!--
+        Image element.
+
+        src
+        = image location.
+
+        alt
+        = description of image.
+
+        Used by:
+        - screen readers
+        - accessibility tools
+        - shown if image fails loading
+        -->
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"
+          alt="a cat in the garden"
+        />
+
+        <!--
+        Caption describing image.
+        -->
+        <figcaption>
+          Mr. Whiskers in the Garden
+        </figcaption>
+
+      </figure>
+
+      <!--
+      Navigation element.
+
+      Tells browser:
+      This section contains navigation links.
+      -->
+      <nav>
+
+        <!--
+        Unordered list.
+
+        Creates bullet list.
+        -->
+        <ul>
+
+          <!--
+          List item.
+          -->
+          <li>
+
+            <!--
+            Anchor element.
+
+            href="#about"
+
+            #about means:
+            jump to element
+            with id="about"
+            -->
+            <a href="#about">About</a>
+
+          </li>
+
+          <li>
+            <a href="#posts">Posts</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+
+
+    <!--
+    Main element.
+
+    Tells browser:
+    This is the primary content
+    of the webpage.
+    -->
+    <main>
+
+      <!--
+      Section element.
+
+      Used to group related content.
+
+      id="about"
+
+      Creates unique identifier.
+
+      Used by:
+      href="#about"
+      -->
+      <section id="about">
+
+        <!--
+        h2 = section heading.
+        -->
+        <h2>About</h2>
+
+        <!-- Paragraph -->
+        <p>
+          Hi there! I'm Jane Doe, a passionate writer who finds endless inspiration in the antics of my beloved cat, Mr. Whiskers.
+        </p>
+
+        <!-- Paragraph -->
+        <p>
+          His playful nature and boundless energy keeps me on my toes. I love him so much.
+        </p>
+
+      </section>
+
+
+
+      <!--
+      Posts section.
+      -->
+      <section id="posts">
+
+        <h2>Posts</h2>
+
+        <!--
+        Article element.
+
+        Tells browser:
+        This is an independent piece
+        of content.
+
+        Perfect for:
+        - Blog posts
+        - News articles
+        - Forum posts
+        -->
+        <article>
+
+          <h3>Mr. Whiskers' First Day Home</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+        </article>
+
+
+
+        <article>
+
+          <h3>Mr. Whiskers' First Bath</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+        </article>
+
+
+
+        <article>
+
+          <h3>Mr. Whiskers' First Birthday Party</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+        </article>
+
+      </section>
+
+    </main>
+
+
+
+    <!--
+    Footer element.
+
+    Tells browser:
+    This is the bottom section
+    of webpage.
+    -->
+    <footer>
+
+      <section id="contact">
+
+        <h2>Contact</h2>
+
+        <!--
+        Address element.
+
+        Tells browser:
+        This section contains
+        contact information.
+        -->
+        <address>
+
+          <p>
+
+            Phone:
+
+            <!--
+            Telephone link.
+
+            tel:
+
+            Tells browser:
+            Open phone app and
+            call this number.
+            -->
+            <a href="tel:5555555555">
+              555-555-5555
+            </a>
+
+          </p>
+
+
+
+          <p>
+
+            Email:
+
+            <!--
+            mailto:
+
+            Tells browser:
+            Open user's email app
+            and create new email.
+            -->
+            <a href="mailto:fake@email.com">
+              fake@email.com
+            </a>
+
+          </p>
+
+        </address>
+
+      </section>
+
+    </footer>
+
+  </body>
+
+</html>
